@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  EsteeLauderTakeThree
+//  EsteeLauderTakeFour
 //
-//  Created by scholar on 8/17/23.
+//  Created by scholar on 8/18/23.
 //
 
 import UIKit
@@ -15,5 +15,12 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func startGame(_ sender: Any) {
+        let vc = storyboard?.instantiateViewController(identifier: "game") as! GameViewController
+        vc.modalPresentationStyle = .fullScreen
+        present(vc, animated: true)
+        
+    }
+    
 }
 

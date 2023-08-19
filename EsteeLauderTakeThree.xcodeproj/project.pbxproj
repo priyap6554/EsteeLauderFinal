@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BDAB43032A90799D005DF31E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAB43022A90799D005DF31E /* GameViewController.swift */; };
 		BDC3F72D2A8EE2550055B7E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC3F72C2A8EE2550055B7E7 /* AppDelegate.swift */; };
 		BDC3F72F2A8EE2550055B7E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC3F72E2A8EE2550055B7E7 /* SceneDelegate.swift */; };
 		BDC3F7312A8EE2550055B7E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC3F7302A8EE2550055B7E7 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BDAB43022A90799D005DF31E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		BDC3F7292A8EE2550055B7E7 /* EsteeLauderTakeThree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EsteeLauderTakeThree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDC3F72C2A8EE2550055B7E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDC3F72E2A8EE2550055B7E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				BDC3F72C2A8EE2550055B7E7 /* AppDelegate.swift */,
 				BDC3F72E2A8EE2550055B7E7 /* SceneDelegate.swift */,
+				BDAB43022A90799D005DF31E /* GameViewController.swift */,
 				BDC3F7302A8EE2550055B7E7 /* ViewController.swift */,
 				BDC3F7322A8EE2550055B7E7 /* Main.storyboard */,
 				BDC3F7352A8EE2570055B7E7 /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDAB43032A90799D005DF31E /* GameViewController.swift in Sources */,
 				BDC3F7312A8EE2550055B7E7 /* ViewController.swift in Sources */,
 				BDC3F72D2A8EE2550055B7E7 /* AppDelegate.swift in Sources */,
 				BDC3F72F2A8EE2550055B7E7 /* SceneDelegate.swift in Sources */,
